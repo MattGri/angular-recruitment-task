@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container .chooseLabel {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.container .selectPet {
+  background-color: #161826;
+  color: #fff;
+  padding: 8px;
+  font-size: 15px;
+  border-color: #8702f9;
+  outline: none;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(88, 152, 211);
+}
+
+.text .link {
+  color: #fff;
+}
+
+.petImage {
+  display: block;
+  margin: 0 auto;
+  /* width: 250px; */
+  height: 170px;
+  border-radius: 10px;
+}
+
+@media (max-width: 425px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .chooseLabel {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container .chooseLabel {
+    font-size: 15px;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+}

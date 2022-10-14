@@ -1,0 +1,28 @@
+<div class="container">
+  <label class="chooseLabel">Wybierz rase psa</label>
+  <select class="selectPet" (change)="onChange($event)">
+    <option
+      class="optionPet"
+      *ngFor="let d of data | keyvalue"
+      [value]="d.value"
+    >
+      {{ d.value }}
+    </option>
+    >
+  </select>
+</div>
+
+<div>
+  <p class="text" *ngIf="showText === true">
+    Poczytaj więcej o tej rasie na wikipedii:
+    <a
+      class="link"
+      href="https://en.wikipedia.org/wiki/{{ selectedValue }}"
+      target="_blank"
+    >
+      {{ selectedValue }}
+    </a>
+  </p>
+
+  <img class="petImage" [src]="image" alt="" />
+</div>
