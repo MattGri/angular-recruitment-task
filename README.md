@@ -21,5 +21,5 @@ If you have any issues, please let me know on mateusz.grzybowski98@gmail.com
 
 # Live 📍
 
-https://neon-piroshki-d93a7f.netlify.app/
+https://venerable-sunshine-6e2a89.netlify.app/
  
